@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;    
+}
+
+body {
+    background-color:  white;
+}
+
+header {
+    background: #8080ff;
+    padding: 20px;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Amatic SC', cursive, Arial;
+}
+
+.score-board {
+    margin: 30px auto;
+    border: 7px solid lightblue;
+    border-radius: 40%;
+    width: 200px;
+    height: 120px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 20px 10px;
+    font-family: Amatic SC, cursive, Arial;
+    font-weight: 800;
+    position: relative;
+    background-color: thistle;
+}
+
+.badge {
+    background: lightgreen;
+    font-size: 30px;
+    padding: 4px 10px 6px;
+    border: 2px solid pink;
+    border-radius: 40%;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    
+}
+    
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -39px;        
+}    
+    
+.result {
+    font-size: 60px;
+    font-weight: 800;
+    color: slateblue;
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: Amatic SC, cursive, Arial;
+}
+
+.choices {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.choice {
+    display: inline-block;
+    border: 3px solid plum;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    box-shadow: 6px 6px 8px plum;
+}
+
+#action-message {
+    text-align: center;
+    color: blueviolet;
+    font-family: Amatic SC, cursive, Arial;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.green-glow {
+    border: 4px solid limegreen;
+    box-shadow: 0 0 10px #31b43a;    
+}
+ 
+.red-glow {
+    border: 4px solid red;
+    box-shadow: 0 0 10px #d01115;    
+}
+
+
+
+
+
+
+
